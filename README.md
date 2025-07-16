@@ -1,7 +1,5 @@
-## Jogo da Cobrinha
+# Site Pessoal
 
-Este projeto foi realizado juntamente com meu professor @BiaginiMatheus em uma live stream nos meus canais da Twitch e TikTok com o intuito de difundir a programação e entreter os espectadores.
-
-Como o nome sugere, fizemos ao vivo o famoso "jogo da cobrinha" utilizando a linguagem JavaScript e um pouco de HTML e CSS. 
-
-Até o momento da publicação deste Readme o jogo está disponível em "SouaJenni.github.io" para que você também possa jogar. Caso chegue tarde demais, o código continuará disponível para que consiga testar. 
+Como o nome sugere, este repositório guarda consigo os passos para a criação de um site para uso pessoal.
+Sou streamer e é necessário que eu tenha em meus perfis um site que consiga redirecionar os espectadores para todas as minhas redes, sendo assim, decidi que seria a hora de iniciar um projeto pessoal: meu próprio site.
+A intenção é que seja um site de links para fazer esse redirecionamento desejado. Contudo, gostaria que tivesse a minha cara e meu toque nele, por isso estou desenvolvendo do 0, desde o design até o código.

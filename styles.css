@@ -1,0 +1,116 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4dfff;
+  color: #333;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Título principal */
+#titulo-principal h1 {
+  font-family: "Fascinate Inline", system-ui;
+  font-size: 48px;
+  color: #c85cfc;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+}
+
+#titulo-principal h3 {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* Redes sociais */
+#social {
+  margin-bottom: 40px;
+}
+
+#social a {
+  font-size: 16px;
+  color: #444;
+  text-decoration: none;
+  margin: 0 8px;
+  transition: color 0.3s;
+}
+
+#social a:hover {
+  color: #a23bff;
+}
+
+/* Grid de caixas */
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Estilo base para cada box */
+#boxes > div {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  padding: 20px;
+  border: 2px solid #000;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#boxes > div:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+/* Imagens dos cards */
+#boxes img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+/* Título de cada card */
+#boxes h2 {
+  font-family: "Fascinate Inline", system-ui;
+  font-size: 20px;
+  color: #a23bff;
+  margin-bottom: 10px;
+}
+
+/* Texto de cada card */
+#boxes p {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  padding: 0 5px;
+}
+
+/* Links dos cards */
+#boxes a {
+  display: inline-block;
+  color: rgba(0, 0, 0);
+  text-decoration: none;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+/* Responsivo para telas pequenas */
+@media (max-width: 600px) {
+  #boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #boxes > div {
+    width: 90%;
+  }
+}
